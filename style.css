@@ -1,0 +1,54 @@
+/* Thay đổi font chữ toàn trang */
+body {
+    font-family: Arial, sans-serif; /* Đổi sang font bạn thích */
+    background-color: #f0f2f5; /* Đổi màu nền chính */
+}
+
+/* Tùy chỉnh thanh Navbar */
+.navbar.bg-primary {
+    background-color: #333 !important; /* Đổi màu xanh dương sang màu đen xám */
+}
+
+/* Tùy chỉnh Card */
+.card {
+    border: none; /* Bỏ viền card */
+    border-radius: 8px; /* Bo góc nhiều hơn */
+}
+
+/* Tùy chỉnh nút bấm chính */
+.btn-primary {
+    background-color: #ff6600; /* Đổi nút sang màu cam */
+    border: none;
+}
+.btn-primary:hover {
+    background-color: #e65c00; /* Màu cam đậm hơn khi hover */
+}
+/*
+ * === THAY ĐỔI GIAO DIỆN ĐĂNG NHẬP / ĐĂNG KÝ ===
+ */
+
+/* Đổi màu nền (body) cho đồng bộ với index.php */
+body {
+    background-color: #f8f9fa; /* Đây là màu .bg-light của Bootstrap */
+}
+
+/* * Ghi đè nút .btn-primary (màu xanh dương)
+ * thành màu cam (giống nút "Thêm công việc")
+ */
+.btn-primary {
+    background-color: #fd7e14; /* Đây là màu cam .btn-warning */
+    border-color: #fd7e14;
+}
+
+/* Đổi màu khi di chuột vào nút */
+.btn-primary:hover {
+    background-color: #e67312;
+    border-color: #d96c11;
+}
+
+/* * Sửa thanh Navbar (thanh điều hướng trên cùng)
+ * từ xanh (bg-primary) sang màu xám đen
+ */
+.navbar.bg-primary {
+    background-color: #343a40 !important; /* Đây là màu .bg-dark */
+}
